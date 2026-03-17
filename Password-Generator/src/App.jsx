@@ -45,8 +45,8 @@ function App() {
           }}></input>
         <label>Numbers</label>
         <input type="checkbox"
-          defaultChecked={numsAllowed}
-          value={numsAllowed}
+          defaultChecked={charsAllowed}
+          value={charsAllowed}
           onChange={(event) => {
             setlength(event.target.value)
           }}></input>
